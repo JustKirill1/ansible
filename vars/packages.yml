@@ -1,0 +1,8 @@
+packages_list:
+  - net-tools
+  - curl
+  - nginx
+
+ufw_allowed_ports:
+  - { port: "22", proto: "tcp" }   # SSH
+  - { port: "80", proto: "tcp" }   # HTTP
